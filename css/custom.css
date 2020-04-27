@@ -1,9 +1,8 @@
 
-body{
-    z-index: 0;
-}
-.row{
-    /* background-color: red; */
+@font-face{
+    font-family: DacingScript;
+    src: url('../css/font/DancingScript-VariableFont_wght.ttf');
+    font-weight:normal; font-style:normal;
 }
 h3{
     text-transform: uppercase;
@@ -24,7 +23,6 @@ h3{
 }
 .header span{
 }
-
 .cus-header-right,.cus-header-left{
     padding-left: 0px;
     padding-right: 0px;
@@ -153,7 +151,13 @@ h3{
 }
 
 .cus-second-banner-text{
-    width: 350px;
+    width: 360px;
+}
+.cus-second-banner-text h4{
+    font-family: DacingScript;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
 }
 /* product-icon */
 .product-icon{
