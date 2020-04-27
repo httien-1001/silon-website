@@ -12,6 +12,7 @@ h3{
     border: none;
     background-color: #ff5353;
     color: #fff;
+    padding: 5px 15px;
 }
 /* header */
 .header{
@@ -67,20 +68,25 @@ h3{
 /* first-banner */
 .first-banner{
     background-image: url('../images/thembs4_02.png');
+    background-repeat: no-repeat;
     height: 500px;
 }
 .cus-first-banner{
     width: 500px;
-    margin-top: 260px;
+    margin-top: 200px;
 }
 .cus-first-banner-text{
-
+    width: 250px;
+}
+.cus-first-banner-text h3{
+   
 }
 .banner-photo{
-    width: 100%;
+    text-align: center;
 }
 .banner-photo img{
     height: 500px;
+    width: 100%;
 }
 /* first-product*/
 .first-product{
@@ -143,6 +149,11 @@ h3{
 .second-banner{
     background-image: url('../images/thembs4_04_02.png');
     height: 500px;
+    background-repeat: no-repeat;
+}
+
+.cus-second-banner-text{
+    width: 350px;
 }
 /* product-icon */
 .product-icon{
