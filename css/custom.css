@@ -4,6 +4,18 @@
     src: url('../css/font/DancingScript-VariableFont_wght.ttf');
     font-weight:normal; font-style:normal;
 }
+@font-face{
+    font-family: Roboto Regular;
+    src: url('../css/font/Roboto-Regular.ttf');
+    font-weight:normal; font-style:normal;
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src: url('../css/font/Roboto-Bold.ttf');
+}
+body{
+    font-family: Roboto Regular;
+}
 h3{
     text-transform: uppercase;
 }
@@ -42,8 +54,6 @@ h3{
 }
 .icon{
     margin-top: 20px; 
-    /* margin-left: 350px; */
-    /* margin-right: 0px; */ 
 }
 .icon a{
     display: inline-block;
@@ -74,7 +84,7 @@ h3{
     margin-top: 200px;
 }
 .cus-first-banner-text{
-    width: 250px;
+    width: 260px;
 }
 .cus-first-banner-text h3{
    
@@ -93,6 +103,9 @@ h3{
 .product-title{
     margin-top: 150px;
     margin-bottom: 90px;
+}
+.product-title h3{
+    font-weight: bold;
 }
 .demo-fly{
     position: relative;
@@ -138,11 +151,23 @@ h3{
 .item-text{
     position: relative;
 }
-
-.product-star i{
-    color:#ff5353;
+.item-text h4{
+    font-size: 14px;
+    color: #888888;
+    padding-top: 10px;
 }
+.product-star{
 
+}
+.product-star i{
+    padding-top: 5px;
+    color:#ff5353;
+
+}
+.product-price{
+    margin-bottom: 65px;
+    font-weight: bold;
+}
 /* second-banner */
 .second-banner{
     background-image: url('../images/thembs4_04_02.png');
@@ -159,9 +184,14 @@ h3{
     font-size: 50px;
     font-weight: bold;
 }
+/* 2_Dots */
+.dot i{
+    padding-left: 10px ;
+    color: #ff5353;
+} 
 /* product-icon */
 .product-icon{
-    margin-top: 150px;
+    margin-top: 90px;
 }
 .product-icon-item{
     border: 1px solid #888888;
@@ -191,13 +221,21 @@ h3{
     font-weight: normal;
     font-size: 16px;
     padding-bottom: 10px;
-    text-align: justify;
 }
 .silon-journal-text .text-time{
+    margin-top: 10px;
     margin-bottom: 3px;
+    color: #888888;
+    font-size: 14px;
+}
+.silon-journal-text h4{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+
 }
 .silon-journal-cmt{
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .silon-journal-cmt span{
     padding-right: 15px
